@@ -243,8 +243,9 @@ font-size:1.5rem;}
 
 .courses p:first-child {
   padding-top:2rem;
-  margin-bottom:2rem;
+  padding-bottom:2rem;
   font-weight:bold;
+  margin:0;
   font-size:3rem;
   text-align:center;
 }
@@ -266,14 +267,23 @@ font-size:1.5rem;}
 .container-fluid p{
   font-size:1rem;
   text-align:left;
-  margin-left:1rem;
+  padding-left:1rem;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  margin:0;
 }
+
+.container-fluid p:last-child{
+  padding-bottom:1.5rem;
+  padding-top:0;
+  }
 
 .container-fluid h1{
   font-size:1.5rem;
   font-weight:bold;
-  margin-left:1rem;
-  margin-top:1rem;
+  padding-left:1rem;
+  padding-top:1rem;
+  margin:0;
   }
 
 .container-fluid img{
@@ -282,12 +292,35 @@ font-size:1.5rem;}
   display:block;
 }
 
+.row {
+  margin-left:-1rem;
+  margin-right:-1rem;
+}
 
+.col-sm-4 {
+  padding-left:1rem;
+  padding-right:1rem;
+}
+
+.text-bottom{
+  padding-bottom:2rem;
+}
+
+.thesis {
+  padding-top:2rem;
+}
+
+.thesis>h1{
+  text-align:center;
+  padding-bottom:2rem;
+  margin:0;
+  font-weight:bold;
+}
 
 .video {
   width:60%;
   margin-left:1.5rem;
-  margin-bottom:1.5rem;
+  margin-bottom:2rem;
   margin-right:1.5rem;
   display:inline-block;
 }
@@ -302,7 +335,10 @@ font-size:1.5rem;}
 .video p {
   font-size:1rem;
   margin-top:0.5rem;
-  margin-bottom:2rem;
+  }
+
+  .media{
+    margin:0;
   }
 
 footer{
@@ -314,11 +350,15 @@ footer{
   display:flex;
   justify-content:space-between;
   align-items: center;
+  padding-top:1rem;
+  padding-bottom:2rem;
   }
 
   .bottom p{
-    margin-left:1.5rem;
+    padding-left:1.5rem;
     font-size:1rem;
+    margin:0;
+
   }
 
   .terms a {
